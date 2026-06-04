@@ -65,7 +65,3 @@ Or just open `index.html` directly — it runs entirely in the browser.
 `DOM manipulation` · `Event listeners` · `Array methods (map, filter, reduce, find)` · `IntersectionObserver` · `Closures` · `Regex validation` · `Template literals` · `requestAnimationFrame`
 
 ---
-
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
