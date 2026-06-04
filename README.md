@@ -71,7 +71,7 @@ Then open `index.html` directly in your browser — it runs entirely client-side
 
 ---
 
-## 📸 Sections
+## Sections
 
 | Section | What's Inside |
 |---|---|
@@ -85,16 +85,18 @@ Then open `index.html` directly in your browser — it runs entirely client-side
 
 ---
 
-## 🧠 JavaScript Concepts Used
+## JavaScript Concepts Used
 
 ```
 DOM manipulation  ·  Event listeners  ·  Array methods (map, filter, reduce, find)
 IntersectionObserver  ·  Closures  ·  Regex validation
 Template literals  ·  requestAnimationFrame
+```
 
 ---
- 
+
 <div align="center">
+
 Made with ❤️ and a lot of 🍔
- 
+
 </div>
