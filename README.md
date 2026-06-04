@@ -1,30 +1,85 @@
+<div align="center">
+
+<img src="https://img.shields.io/badge/QuickBite-FF6B35?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNGwtNC00IDEuNDEtMS40MUwxMCAxMy4xN2w2LjU5LTYuNTlMMTggOGwtOCA4eiIvPjwvc3ZnPg==&logoColor=white" alt="QuickBite" height="40"/>
+
 # QuickBite
 
-A responsive food ordering web app built with HTML, CSS, and vanilla JavaScript. Browse the menu, add items to a cart, and place orders — all in one clean, mobile-friendly page.
+**A responsive food ordering web app — browse, cart, and order in one clean page.**
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![No Dependencies](https://img.shields.io/badge/Dependencies-None-brightgreen?style=flat-square)](package.json)
+
+</div>
+
+---
+
+## Screenshots
+
+> **Tip:** Replace the placeholders below with real screenshots of your app.  
+> Drag images into your GitHub repo under `docs/screenshots/` and update the paths.
+
+<div align="center">
+
+### Home & Trending
+
+<!-- Replace with your actual screenshot -->
+![Home Page](docs/screenshots/home.png)
+*Hero section with trending order cards and scroll-reveal animations*
+
+---
+
+### Live Cart Panel
+
+<!-- Replace with your actual screenshot -->
+![Cart Panel](docs/screenshots/cart.png)
+*Slide-in cart with quantity controls, item removal, and live total*
+
+---
+
+### Order Form
+
+<!-- Replace with your actual screenshot -->
+![Order Form](docs/screenshots/order-form.png)
+*Smart order form with auto-populated cart summary, delivery time picker, and payment selection*
+
+---
+
+### Mobile View
+
+<!-- Replace with your actual screenshot -->
+![Mobile View](docs/screenshots/mobile.png)
+*Hamburger nav, floating cart button, and fully responsive layout*
+
+</div>
 
 ---
 
 ## Features
 
-- **Live Cart System** — Add items from trending cards or the full menu; adjust quantity or remove items in a slide-in cart panel
-- **Smart Order Form** — Cart contents auto-populate an order summary; includes delivery time and payment method selection
-- **Form Validation** — Real-time phone number check, required field alerts, and inline error messages
-- **Scroll Reveal** — Cards and menu boxes animate into view as you scroll
-- **Active Nav Highlight** — Current section is highlighted in the navbar as you scroll
-- **Toast Notifications** — Non-blocking pop-ups for cart actions and order confirmation
-- **Floating Cart Button** — Appears on scroll with a live item count badge
-- **Responsive Design** — Hamburger menu and mobile-optimised layout for all screen sizes
+| Feature | Description |
+|---|---|
+| **Live Cart System** | Add items from trending cards or the full menu; adjust quantity or remove items in a slide-in cart panel |
+| **Smart Order Form** | Cart contents auto-populate an order summary; includes delivery time and payment method selection |
+| **Form Validation** | Real-time phone number check, required field alerts, and inline error messages |
+| **Scroll Reveal** | Cards and menu boxes animate into view as you scroll |
+| **Active Nav Highlight** | Current section is highlighted in the navbar as you scroll |
+| **Toast Notifications** | Non-blocking pop-ups for cart actions and order confirmation |
+| **Floating Cart Button** | Appears on scroll with a live item count badge |
+| **Responsive Design** | Hamburger menu and mobile-optimised layout for all screen sizes |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Details |
-|-------|---------|
+|---|---|
 | Structure | HTML5 |
-| Styling | CSS3 (Flexbox, Grid, animations, media queries) |
+| Styling | CSS3 — Flexbox, Grid, animations, media queries |
 | Logic | Vanilla JavaScript (ES6+) |
-| Font | Google Fonts — Poppins |
+| Font | [Google Fonts — Poppins](https://fonts.google.com/specimen/Poppins) |
 
 ---
 
@@ -32,10 +87,16 @@ A responsive food ordering web app built with HTML, CSS, and vanilla JavaScript.
 
 ```
 QuickBite/
-├── index.html       # Main page structure
-├── style.css        # All styles and responsive rules
-├── script.js        # Cart logic, validation, animations
-└── Images/          # Food photos, icons, offer banners
+├── index.html          # Main page structure
+├── style.css           # All styles and responsive rules
+├── script.js           # Cart logic, validation, animations
+├── docs/
+│   └── screenshots/    # App screenshots for README
+│       ├── home.png
+│       ├── cart.png
+│       ├── order-form.png
+│       └── mobile.png
+└── Images/             # Food photos, icons, offer banners
 ```
 
 ---
@@ -47,21 +108,35 @@ No build tools or dependencies needed.
 ```bash
 git clone https://github.com/your-username/quickbite.git
 cd quickbite
-# Open index.html in your browser
 ```
 
-Or just open `index.html` directly — it runs entirely in the browser.
+Then open `index.html` directly in your browser — it runs entirely client-side.
 
 ---
 
-## Sections
+## 📸 Sections
 
-`Home` · `Trending Orders` · `Special Offers` · `Menu` · `Why Us` · `Order Form` · `Contact`
+| Section | What's Inside |
+|---|---|
+| **Home** | Hero banner, CTA, animated headline |
+| **Trending Orders** | Scroll-reveal cards with Add to Cart |
+| **Special Offers** | Offer banners and promotional deals |
+| **Menu** | Full categorised menu grid |
+| **Why Us** | Feature highlights and trust points |
+| **Order Form** | Smart form with cart summary |
+| **Contact** | Contact details and links |
 
 ---
 
-## JavaScript Concepts Used
+## 🧠 JavaScript Concepts Used
 
-`DOM manipulation` · `Event listeners` · `Array methods (map, filter, reduce, find)` · `IntersectionObserver` · `Closures` · `Regex validation` · `Template literals` · `requestAnimationFrame`
+```
+DOM manipulation  ·  Event listeners  ·  Array methods (map, filter, reduce, find)
+IntersectionObserver  ·  Closures  ·  Regex validation
+Template literals  ·  requestAnimationFrame
 
----
+<div align="center">
+
+Made with ❤️ and a lot of 🍔
+
+</div>
