@@ -92,8 +92,9 @@ DOM manipulation  ·  Event listeners  ·  Array methods (map, filter, reduce, f
 IntersectionObserver  ·  Closures  ·  Regex validation
 Template literals  ·  requestAnimationFrame
 
+---
+ 
 <div align="center">
-
 Made with ❤️ and a lot of 🍔
-
+ 
 </div>
