@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBite</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="logo-container">
+            <a href="#" class="logo-link">
+                <img src="Images/image-removebg-preview.png" alt="QuickBite Logo" class="logo">
+            </a>
+        </div>
+
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Offers">Offers</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <!-- Cart Icon in Header -->
+            <button id="cart-icon-btn" class="cart-icon-btn" aria-label="Open Cart">
+                🛒
+                <span class="cart-count" style="display:none">0</span>
+            </button>
+            <!-- Hamburger -->
+            <button id="hamburger" class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="Home" class="hero">
+        <div class="hero-text">
+            <h2>Better Food For More People</h2>
+            <p>
+                Experience fast &amp; easy online ordering on the QuickBite app.
+                <br>
+                Order your favourite meals anytime, anywhere!
+            </p>
+            <button>Order Now</button>
+        </div>
+    </section>
+
+    <!-- TRENDING ORDERS -->
+    <section class="food">
+        <h2>Trending Orders</h2>
+        <div class="food-container">
+            <div class="food-card">
+                <img src="Images/pizza.jpeg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>@₹179</p>
+            </div>
+            <div class="food-card">
+                <img src="Images/burger.jpeg" alt="Burger">
+                <h3>Burger</h3>
+                <p>@₹99</p>
+            </div>
+            <div class="food-card">
+                <img src="Images/Chicken-curry.jpeg" alt="Chicken Curry">
+                <h3>Chicken Curry</h3>
+                <p>@₹149</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFERS SECTION -->
+    <section id="Offers" class="offers">
+        <h2>Special Offers</h2>
+        <div class="offers-container">
+            <div class="offers-card">
+                <img src="Images/b1g1.png" alt="Buy 1 Get 1 Offer">
+            </div>
+            <div class="offers-card">
+                <img src="Images/free.jpg" alt="Free Delivery Offer">
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="Menu" class="menu-food">
+        <h1>Indian Feast Menu</h1>
+        <div class="menu-grid">
+
+            <div class="menu-box veg-box">
+                <h2>Veg Starters</h2>
+                <div class="menu-item"><span>Paneer Tikka</span><span>₹249</span></div>
+                <p>Grilled cottage cheese with mint chutney.</p>
+                <div class="menu-item"><span>Aloo Tikki Chaat</span><span>₹199</span></div>
+                <p>Spiced potato patties with tamarind sauce.</p>
+            </div>
+
+            <div class="menu-box nonveg-box">
+                <h2>Non-Veg Starters</h2>
+                <div class="menu-item"><span>Chicken Seekh Kebab</span><span>₹299</span></div>
+                <p>Juicy minced chicken skewers.</p>
+                <div class="menu-item"><span>Mutton Galouti Kebab</span><span>₹349</span></div>
+                <p>Melt-in-your-mouth lamb patties.</p>
+            </div>
+
+            <div class="menu-box main-veg-box">
+                <h2>Veg Main Course</h2>
+                <div class="menu-item"><span>Paneer Butter Masala</span><span>₹399</span></div>
+                <p>Paneer cubes in rich buttery tomato gravy.</p>
+                <div class="menu-item"><span>Shahi Paneer</span><span>₹429</span></div>
+                <p>Creamy paneer curry with royal spices.</p>
+                <div class="menu-item"><span>Dal Makhani</span><span>₹349</span></div>
+                <p>Slow-cooked black lentils with butter.</p>
+                <div class="menu-item"><span>Kadai Paneer</span><span>₹379</span></div>
+                <p>Paneer cooked with capsicum and spices.</p>
+                <div class="menu-item"><span>Mix Veg Curry</span><span>₹299</span></div>
+                <p>Fresh vegetables cooked in Indian gravy.</p>
+            </div>
+
+            <div class="menu-box main-nonveg-box">
+                <h2>Non-Veg Main Course</h2>
+                <div class="menu-item"><span>Butter Chicken</span><span>₹499</span></div>
+                <p>Classic creamy tandoori chicken curry.</p>
+                <div class="menu-item"><span>Kadai Chicken</span><span>₹479</span></div>
+                <p>Chicken cooked with bell peppers and spices.</p>
+                <div class="menu-item"><span>Mutton Rogan Josh</span><span>₹599</span></div>
+                <p>Traditional Kashmiri mutton curry.</p>
+                <div class="menu-item"><span>Goan Fish Curry</span><span>₹549</span></div>
+                <p>Fish cooked in spicy coconut gravy.</p>
+                <div class="menu-item"><span>Chicken Curry</span><span>₹429</span></div>
+                <p>Authentic Indian-style spicy chicken curry.</p>
+            </div>
+
+            <div class="menu-box breads-box">
+                <h2>Indian Breads</h2>
+                <div class="menu-item"><span>Butter Naan</span><span>₹59</span></div>
+                <p>Soft naan topped with melted butter.</p>
+                <div class="menu-item"><span>Garlic Naan</span><span>₹79</span></div>
+                <p>Fresh naan flavored with garlic.</p>
+                <div class="menu-item"><span>Tandoori Roti</span><span>₹35</span></div>
+                <p>Whole wheat bread baked in tandoor.</p>
+                <div class="menu-item"><span>Lachha Paratha</span><span>₹89</span></div>
+                <p>Layered crispy North Indian bread.</p>
+                <div class="menu-item"><span>Cheese Naan</span><span>₹129</span></div>
+                <p>Stuffed naan loaded with cheese.</p>
+            </div>
+
+            <div class="menu-box rice-box">
+                <h2>Rice Specials</h2>
+                <div class="menu-item"><span>Veg Biryani</span><span>₹349</span></div>
+                <p>Fragrant rice cooked with vegetables.</p>
+                <div class="menu-item"><span>Chicken Dum Biryani</span><span>₹449</span></div>
+                <p>Hyderabadi-style spicy chicken biryani.</p>
+                <div class="menu-item"><span>Jeera Rice</span><span>₹149</span></div>
+                <p>Basmati rice tempered with cumin.</p>
+                <div class="menu-item"><span>Egg Fried Rice</span><span>₹229</span></div>
+                <p>Chinese-style fried rice with egg.</p>
+                <div class="menu-item"><span>Paneer Fried Rice</span><span>₹249</span></div>
+                <p>Fried rice tossed with paneer cubes.</p>
+            </div>
+
+            <div class="menu-box chinese-box">
+                <h2>Chinese Corner</h2>
+                <div class="menu-item"><span>Veg Hakka Noodles</span><span>₹229</span></div>
+                <p>Stir-fried noodles with vegetables.</p>
+                <div class="menu-item"><span>Chicken Noodles</span><span>₹279</span></div>
+                <p>Spicy noodles tossed with chicken.</p>
+                <div class="menu-item"><span>Chilli Paneer</span><span>₹299</span></div>
+                <p>Crispy paneer in spicy sauce.</p>
+                <div class="menu-item"><span>Chilli Chicken</span><span>₹349</span></div>
+                <p>Chicken cubes tossed in Chinese gravy.</p>
+                <div class="menu-item"><span>Spring Rolls</span><span>₹199</span></div>
+                <p>Crispy rolls stuffed with veggies.</p>
+            </div>
+
+            <div class="menu-box drinks-box">
+                <h2>Drinks &amp; Beverages</h2>
+                <div class="menu-item"><span>Cold Coffee</span><span>₹149</span></div>
+                <p>Chilled creamy coffee with ice cream.</p>
+                <div class="menu-item"><span>Mango Lassi</span><span>₹129</span></div>
+                <p>Refreshing mango yogurt drink.</p>
+                <div class="menu-item"><span>Mint Mojito</span><span>₹139</span></div>
+                <p>Fresh lime and mint cooler.</p>
+                <div class="menu-item"><span>Masala Soda</span><span>₹79</span></div>
+                <p>Indian-style spicy soda drink.</p>
+                <div class="menu-item"><span>Fresh Lime Water</span><span>₹69</span></div>
+                <p>Refreshing sweet and salty lime drink.</p>
+            </div>
+
+            <div class="menu-box dessert-box">
+                <h2>Desserts &amp; Sweets</h2>
+                <div class="menu-item"><span>Gulab Jamun</span><span>₹129</span></div>
+                <p>Soft milk dumplings in sugar syrup.</p>
+                <div class="menu-item"><span>Rasmalai</span><span>₹149</span></div>
+                <p>Soft paneer balls in saffron milk.</p>
+                <div class="menu-item"><span>Chocolate Brownie</span><span>₹179</span></div>
+                <p>Warm chocolate brownie with syrup.</p>
+                <div class="menu-item"><span>Vanilla Ice Cream</span><span>₹99</span></div>
+                <p>Classic creamy vanilla dessert.</p>
+                <div class="menu-item"><span>Kulfi Falooda</span><span>₹189</span></div>
+                <p>Traditional Indian kulfi with falooda.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="why-us">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>⚡ Fast Delivery</li>
+            <li>🌿 Fresh Food</li>
+            <li>💰 Affordable Prices</li>
+        </ul>
+    </section>
+
+    <!-- ORDER FORM -->
+    <!-- ORDER FORM -->
+    <section class="form" id="Order">
+        <h2>Complete Your Order</h2>
+
+        <form novalidate id="order-form">
+
+            <!-- ORDER SUMMARY (populated by JS from cart) -->
+            <div class="form-summary-box" id="form-summary-box">
+                <h3 class="summary-title">🛒 Order Summary</h3>
+                <div id="form-cart-items">
+                    <p class="summary-empty">No items yet — add from the menu above!</p>
+                </div>
+                <div class="summary-totals">
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span id="form-subtotal">₹0</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Delivery fee</span>
+                        <span style="color: #2e7d32; font-weight: 700;">FREE</span>
+                    </div>
+                    <div class="summary-row summary-grand">
+                        <span>Total</span>
+                        <span id="form-total">₹0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DELIVERY DETAILS -->
+            <h3 class="form-section-title">📦 Delivery Details</h3>
+
+            <label>Full Name</label>
+            <input type="text" id="f-name" placeholder="Enter your full name">
+
+            <label>Phone Number</label>
+            <input type="tel" id="f-phone" placeholder="10-digit mobile number" maxlength="10">
+
+            <label>Delivery Address</label>
+            <textarea id="f-address" placeholder="House / flat no., street, area, city"></textarea>
+
+            <!-- DELIVERY TIME -->
+            <h3 class="form-section-title">🕐 Delivery Time</h3>
+            <div class="time-opts">
+                <label class="time-opt">
+                    <input type="radio" name="delivery-time" value="asap" checked>
+                    <span>ASAP (~30 min)</span>
+                </label>
+                <label class="time-opt">
+                    <input type="radio" name="delivery-time" value="45-60">
+                    <span>45 – 60 min</span>
+                </label>
+                <label class="time-opt">
+                    <input type="radio" name="delivery-time" value="schedule">
+                    <span>Schedule later</span>
+                </label>
+            </div>
+
+            <!-- PAYMENT METHOD -->
+            <h3 class="form-section-title">💳 Payment Method</h3>
+            <div class="pay-opts">
+                <label class="pay-opt">
+                    <input type="radio" name="payment" value="cod" checked>
+                    <span>Cash on Delivery</span>
+                </label>
+                <label class="pay-opt">
+                    <input type="radio" name="payment" value="upi">
+                    <span>UPI / GPay</span>
+                </label>
+                <label class="pay-opt">
+                    <input type="radio" name="payment" value="card">
+                    <span>Card</span>
+                </label>
+                <label class="pay-opt">
+                    <input type="radio" name="payment" value="netbanking">
+                    <span>Net Banking</span>
+                </label>
+            </div>
+
+            <!-- SPECIAL INSTRUCTIONS -->
+            <h3 class="form-section-title">📝 Special Instructions</h3>
+            <textarea id="f-note" placeholder="Allergies, spice level, extra sauces... (optional)"></textarea>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <!-- FOLLOW SECTION -->
+    <section class="follow">
+        <h2>Follow Us</h2>
+        <div class="follow-card">
+            <img src="Images/instagram.png" alt="Instagram">
+            <img src="Images/facebook.png" alt="Facebook">
+            <img src="Images/twitter.png" alt="Twitter">
+            <img src="Images/whatsapp.png" alt="WhatsApp">
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="Contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-card">
+            <a href="#"><img src="Images/mail.png" alt="Mail"></a>
+            <a href="#"><img src="Images/telephone.png" alt="Call"></a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 QuickBite | All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- ═══ CART MODAL ═══ -->
+    <div id="cart-overlay" class="cart-overlay"></div>
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-header">
+            <h3>🛒 Your Cart</h3>
+            <button id="close-cart" class="close-cart">✕</button>
+        </div>
+        <div id="cart-items" class="cart-items">
+            <p class="empty-cart">Your cart is empty 🍽️</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Total:</span>
+                <span id="cart-total">₹0</span>
+            </div>
+            <button id="checkout-btn" class="checkout-btn">Proceed to Order</button>
+        </div>
+    </div>
+
+    <!-- FLOATING CART BUTTON -->
+    <button id="float-cart-btn" class="float-cart-btn" aria-label="Open Cart">
+        🛒
+        <span class="cart-count" style="display:none">0</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
