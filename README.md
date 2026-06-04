@@ -14,47 +14,6 @@
 
 ---
 
-## Screenshots
-
-> **Tip:** Replace the placeholders below with real screenshots of your app.  
-> Drag images into your GitHub repo under `docs/screenshots/` and update the paths.
-
-<div align="center">
-
-### Home & Trending
-
-<!-- Replace with your actual screenshot -->
-![Home Page](docs/screenshots/home.png)
-*Hero section with trending order cards and scroll-reveal animations*
-
----
-
-### Live Cart Panel
-
-<!-- Replace with your actual screenshot -->
-![Cart Panel](docs/screenshots/cart.png)
-*Slide-in cart with quantity controls, item removal, and live total*
-
----
-
-### Order Form
-
-<!-- Replace with your actual screenshot -->
-![Order Form](docs/screenshots/order-form.png)
-*Smart order form with auto-populated cart summary, delivery time picker, and payment selection*
-
----
-
-### Mobile View
-
-<!-- Replace with your actual screenshot -->
-![Mobile View](docs/screenshots/mobile.png)
-*Hamburger nav, floating cart button, and fully responsive layout*
-
-</div>
-
----
-
 ## Features
 
 | Feature | Description |
